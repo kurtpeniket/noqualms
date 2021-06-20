@@ -10,7 +10,7 @@ const Style = styled.div`
 const content = (props) => (
   <Style>
     <div>
-      <h2 class="heading">{props.heading}</h2> 
+      <h2 className="heading">{props.heading}</h2> 
       <p>{props.text}</p>
     </div>
   </Style>

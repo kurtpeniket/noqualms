@@ -1,6 +1,5 @@
 import React from 'react';
 import { InlineWidget } from "react-calendly";
-import { openPopupWidget } from "react-calendly";
 
 const calendly = (props) => (
   <div>
