@@ -3,10 +3,11 @@ import LazyHero from 'react-lazy-hero';
 import styled from 'styled-components';
 
 const Style = styled.div`
-  h1 {
+  .banner {
     color: white;
     font-family: 'Bebas Neue', cursive;
-    font-size: 60px;
+    font-size: 30px;
+    padding-bottom: 180px;
   }  
   
   body{background-color:#000; overflow:hidden;}
@@ -33,14 +34,13 @@ const Style = styled.div`
     line-height: 60px;
     position: absolute;
     left: 50%;
-    bottom: 0px;
+    bottom: 100px;
     color: #FFF;
     text-align: center;
     font-size: 70px;
     z-index: 100;
     text-decoration: none;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
-    margin-bottom: 60px;
 
     -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
     -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
@@ -73,7 +73,10 @@ const hero = (props) => {
           minHeight='100vh'
           parallaxOffset={parseInt('100')}
           imageSrc="https://images.unsplash.com/photo-1536520002442-39764a41e987?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+          <div className="banner">
             <h1>No Qualms Barbering</h1>
+            <h1>*</h1>
+          </div>
         </LazyHero>
         <a href="#content" className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
       </div>
