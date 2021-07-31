@@ -30,7 +30,7 @@ const Style = styled.div`
     cursor:pointer;
     height: 60px;
     width: 80px;
-    margin: 0px 10px 0 -40px;
+    margin: 0px 10px 0px -33px;
     line-height: 60px;
     position: absolute;
     left: 50%;
