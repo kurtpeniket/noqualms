@@ -7,6 +7,7 @@ import Calendly from './Calendly';
 import reportWebVitals from './reportWebVitals';
 import Protect from 'react-app-protect'
 import 'react-app-protect/dist/index.css'
+import ContactForm from './ContactForm';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         text={'Select a date and time below...'}
       />
       <Calendly />
+      <ContactForm />
     </Protect>
   </React.StrictMode>,
   document.getElementById('root')

@@ -71,14 +71,14 @@ const hero = (props) => {
         <LazyHero 
           color='#212121'
           minHeight='100vh'
-          parallaxOffset={parseInt('100')}
+          parallaxOffset={parseInt('100', 10)}
           imageSrc="https://images.unsplash.com/photo-1536520002442-39764a41e987?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
           <div className="banner">
             <h1>No Qualms Barbering</h1>
             <h1>*</h1>
           </div>
         </LazyHero>
-        <a href="#content" className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+        <a href="#content" className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""> </a>
       </div>
     </Style>
     );
