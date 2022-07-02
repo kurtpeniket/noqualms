@@ -11,7 +11,7 @@ import ContactForm from './ContactForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Protect sha512='EE26B0DD4AF7E749AA1A8EE3C10AE9923F618980772E473F8819A5D4940E0DB27AC185F8A0E1D5F84F88BC887FD67B143732C304CC5FA9AD8E6F57F50028A8FF'>
+    <Protect sha512='b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86'>
       <Hero />
       <div id="content">
         <Content 

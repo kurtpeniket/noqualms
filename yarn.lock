@@ -2050,7 +2050,7 @@
   optionalDependencies:
     "fsevents" "^1.2.7"
 
-"chokidar@^3.4.0":
+"chokidar@^2.1.8", "chokidar@^3.4.0":
   "integrity" "sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.2.tgz"
   "version" "3.5.2"
@@ -2067,6 +2067,9 @@
 
 "chokidar2@file:./chokidar2":
   "resolved" "file:node_modules/watchpack/chokidar2"
+  "version" "2.0.0"
+  dependencies:
+    "chokidar" "^2.1.8"
 
 "ci-info@^1.5.0":
   "integrity" "sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A=="
@@ -7173,10 +7176,10 @@
     "crypto-js" "^4.0.0"
     "html2canvas" "^1.0.0-rc.7"
 
-"react-calendly@^2.0.4":
-  "integrity" "sha512-niITyo6k3P/3mx/D0XTG3h4py35rVLgwbcv5DmieBBVw/xhmFHdmg3BR0A4YJNgalaRPgSP5fNtNAmfT+YTk+A=="
-  "resolved" "https://registry.npmjs.org/react-calendly/-/react-calendly-2.0.4.tgz"
-  "version" "2.0.4"
+"react-calendly@^2.2.2":
+  "integrity" "sha512-sDXoLLd7aWm+MBnzLZ6xmRb17pSTVlID3G3kjqtqJByGIoWylfx2nXe9IkN644ZDFcLmCVlLvSdL/GmX1owTGw=="
+  "resolved" "https://registry.npmjs.org/react-calendly/-/react-calendly-2.2.2.tgz"
+  "version" "2.2.2"
 
 "react-dev-utils@^5.0.2":
   "integrity" "sha512-Mvs6ofsc2xTjeZIrMaIfbXfsPVrbdVy/cVqq6SAacnqfMlcBpDuivhWZ1ODGeJ8HgmyWTLH971PYjj/EPCDVAw=="
@@ -7216,10 +7219,10 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-4.0.1.tgz"
   "version" "4.0.1"
 
-"react-hook-form@^7.12.2":
-  "integrity" "sha512-cpxocjrgpMAJCMJQR51BQhMoEx80/EQqePNihMTgoTYTqCRbd2GExi+N4GJIr+cFqrmbwNj9wxk5oLWYQsUefg=="
-  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.12.2.tgz"
-  "version" "7.12.2"
+"react-hook-form@^7.25.0":
+  "integrity" "sha512-MyF4YXegIT/vfyZloTm98mpJwLUPfULdX37yPzXeijT1hePCkV8DN1IAnEufxgtqCpc7aFGRinegQwisUGZCnA=="
+  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.25.0.tgz"
+  "version" "7.25.0"
 
 "react-is@^16.7.0", "react-is@^16.8.1", "react-is@>= 16.8.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
